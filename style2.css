@@ -1,0 +1,71 @@
+body {
+    background-color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.menu-card {
+    background-color: #c49a7a;
+    width: 500px;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    position: relative;
+}
+
+.main-title {
+    font-family: 'Georgia', serif;
+    font-size: 70px;
+    color: #632a2a;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-sections {
+    flex: 1;
+}
+
+.menu-group {
+    margin-bottom: 25px;
+}
+
+.menu-group h2 {
+    color: #632a2a;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.menu-group ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-group li {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+}
+
+.images-column {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding-top: 46px;
+}
+
+.circle-img {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border:  rgba(255, 255, 255, 0.5);
+}
